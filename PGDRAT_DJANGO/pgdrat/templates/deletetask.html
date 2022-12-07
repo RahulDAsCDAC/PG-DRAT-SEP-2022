@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Delete Task{% endblock title %}
+
+{% block body %}
+<div class='container'>
+    <h1> Delete Task </h1>
+    <p>Are you sure you want to delete {{task}} ?</p>
+    <a href="{%url 'Display Task' %}"><button class="btn btn-primary" type="submit" name="Confirm">Cancel</a>
+    <form method="POST" action="">
+        {% csrf_token %}
+        <button class="btn btn-primary" type="submit" name="Confirm">Confirm</button>
+    </form>
+</div>
+
+{% endblock body %}

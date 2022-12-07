@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Display Task{% endblock title %}
+
+{% block body %}
+<div class='container'>
+    <h1> Display Task </h1>
+</div>
+{% for task in tasks %}
+<div class='container'>
+    <h2>{{ task.title }}</h2>
+    <dl>
+        <dt>Description</dt>
+        <dd>{{ task.description }}</dd>
+        <dt>Completed</dt>
+        <dd>{{ task.complete }}</dd>
+        <dt>Date</dt>
+        <dd>{{ task.created }}</dd>
+        <dd><a href="{% url 'Update Task' task.id %}">Edit</a> <a href="{% url 'Delete Task' task.id %}">Delete</a></dd>
+    </dl>
+</div>
+{% endfor %}
+{% endblock body %}
