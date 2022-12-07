@@ -27,13 +27,13 @@ def button_add():
 def button_mul():
     first_number = entry1.get()
     global f_num
-    f_num = f"{str(first_number)}-"
+    f_num = f"{str(first_number)}*"
     entry1.delete(0,END)
 
 def button_sub():
     first_number = entry1.get()
     global f_num
-    f_num = f"{str(first_number)}*"
+    f_num = f"{str(first_number)}-"
     entry1.delete(0,END)
 
 def button_div():
