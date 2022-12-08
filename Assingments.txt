@@ -1,0 +1,7 @@
+1. Design a GUI using tkinter to generate cash memo.
+2. Design an online shopping website using django.
+3. Design a image viewer application using tkinter to display images. The app should ak the user from which folder
+it should access the images.
+4. Design a GUI which can store user data on firebase cloud.
+
+Complete with in 15th January 2023
