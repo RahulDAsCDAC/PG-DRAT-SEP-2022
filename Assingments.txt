@@ -4,4 +4,5 @@
 it should access the images.
 4. Design a GUI which can store user data on firebase cloud.
 
-Complete with in 15th January 2023
+Complete with in 15th January 2023. Mail the github link where the assingments are uploaded with a zip files of all the assingments.
+E-mail: rahul.800983@cdac.in
