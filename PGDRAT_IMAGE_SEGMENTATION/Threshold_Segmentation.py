@@ -6,7 +6,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-image = cv2.imread("lena15.jpg", 0)
+image = cv2.imread("Images/lena15.jpg", 0)
 
 plt.figure(figsize=(8, 8))
 plt.imshow(image, cmap="gray")
